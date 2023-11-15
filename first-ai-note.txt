@@ -1,0 +1,17 @@
+1. import data reader and tree builder
+2. read data from file
+3. view data in file and all columns
+4. drop all unnamed data
+5. define y variable
+6. define features of x
+7. visually check data 
+8. create model and fit the data
+9. predict the model
+10. check the prediction
+
+
+Ми використовуємо X.head(), щоб швидко переглянути,
+як модель передбачає значення для перших п'яти прикладів в наборі даних.
+Це просто швидкий спосіб подивитися на передбачення для початкових даних.
+Якщо отрібні передбачення для всіх рядків у наборі даних,
+ви можете використовувати melbourne_model.predict(X), щоб отримати передбачення для всіх даних, а не лише для перших п'яти.
